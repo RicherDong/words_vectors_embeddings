@@ -4,8 +4,8 @@
 # @File   : train.py
 
 import sys
-from words_vectors_embeddings1.model.word2vec import Word2VecTrain
-from words_vectors_embeddings1.model.fasttext import FastTextTrain
+from words_vectors_embeddings.model.word2vec import Word2VecTrain
+from words_vectors_embeddings.model.fasttext import FastTextTrain
 
 
 
