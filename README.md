@@ -1,13 +1,13 @@
 # words_vectors_embeddings
 
-##1. 数据处理
+## 1. 数据处理
   
    1.1. 将待训练词向量的文件将demo.txt进行替换; 然后修改data_process.py 文件中的文件名
    
    1.2. 运行data_process.py 文件; 完成待训练文件的预处理; 生成word.txt 文件
         运行命令: python data_process.py
       
-###2. 词向量训练 
+### 2. 词向量训练 
    2.1 修改train.py文件中 run('fasttext')方法中传入的参数;
        使用Word2vec方法训练, 参数传入 'word2vec'; 
        使用fasttext方法训练, 参数传入 'fasttext';
