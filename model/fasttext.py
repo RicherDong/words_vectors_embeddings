@@ -3,7 +3,7 @@
 # @Author : Richer
 # @File   : fasttext.py
 
-from words_vectors_embeddings1.model.base import Base
+from words_vectors_embeddings.model.base import Base
 from gensim.models import FastText
 
 class FastTextTrain(Base):

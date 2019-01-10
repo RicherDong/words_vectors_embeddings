@@ -2,7 +2,7 @@
 # @Time   : 2019/1/8 17:04
 # @Author : Richer
 # @File   : base.py
-from words_vectors_embeddings1.get_sentences import GetSentences
+from words_vectors_embeddings.get_sentences import GetSentences
 
 class Base(object):
     def __init__(self):

@@ -6,7 +6,7 @@
 # 直接使用已经分装好的word2vec
 
 from gensim.models import word2vec
-from words_vectors_embeddings1.model.base import Base
+from words_vectors_embeddings.model.base import Base
 
 class Word2VecTrain(Base):
 
